@@ -49,7 +49,9 @@ Utilize metrics such as prediction accuracy, false positive rates, and computati
 Prototype Development:
 
 Focus on integrating the refined tracking models and crash detection algorithms into a cohesive prototype that can be easily demonstrated within the SUMO simulation environment. The emphasis should be on illustrating how the models work in concert to predict and detect potential crash scenarios.
+
 Prioritize testing and validation within the simulation environment to ensure the prototype effectively demonstrates the desired functionalities, such as vehicle tracking accuracy, collision prediction, and the effectiveness of crash detection under various simulated traffic conditions.
+
 Develop a set of predefined scenarios within the simulation that highlight the strengths and capabilities of the prototype. These scenarios could include challenging traffic conditions, such as high-density traffic, rapid speed variations, and complex intersection dynamics, to showcase how the system performs under different conditions.
 
 Documentation and Reporting:
