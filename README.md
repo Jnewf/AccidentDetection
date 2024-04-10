@@ -27,26 +27,26 @@ Model Differentiation: The predictions from the Constant Speed Model and the Kal
 
 ## Next Steps:
 
-Refine Tracking Models:
+### Refine Tracking Models:
 
 Enhance the Kalman Filter to more effectively utilize acceleration data and process noise, ensuring it captures the dynamics of vehicle motion more accurately than the simpler Constant Speed Model.
 Review and adjust the Constant Speed Model to ensure it operates under its intended assumptions.
 
-Enhance Traffic Scenarios:
+### Enhance Traffic Scenarios:
 
 Introduce more variability in the simulation environment, such as dynamic traffic light changes, road closures, and variable speed limits, to test the models under more diverse and challenging conditions.
 
-Advanced Crash Detection Logic:
+### Advanced Crash Detection Logic:
 
 Develop more sophisticated crash detection algorithms that can utilize the state estimates from the tracking models to predict collisions more accurately.
 Incorporate machine learning techniques to analyze the trajectory data, aiming to improve prediction accuracy and reduce false negatives.
 
-Data Analysis and Model Comparison:
+### Data Analysis and Model Comparison:
 
 Conduct a thorough analysis of the simulation data to compare the performance of the Constant Speed Model and the Kalman Filter in various traffic scenarios.
 Utilize metrics such as prediction accuracy, false positive rates, and computational efficiency to evaluate and compare the models.
 
-Prototype Development:
+### Prototype Development:
 
 Focus on integrating the refined tracking models and crash detection algorithms into a cohesive prototype that can be easily demonstrated within the SUMO simulation environment. The emphasis should be on illustrating how the models work in concert to predict and detect potential crash scenarios.
 
@@ -54,10 +54,10 @@ Prioritize testing and validation within the simulation environment to ensure th
 
 Develop a set of predefined scenarios within the simulation that highlight the strengths and capabilities of the prototype. These scenarios could include challenging traffic conditions, such as high-density traffic, rapid speed variations, and complex intersection dynamics, to showcase how the system performs under different conditions.
 
-Documentation and Reporting:
+### Documentation and Reporting:
 
 Document all developments, including code changes, algorithm designs, and test results.
 Prepare a comprehensive report detailing the project methodology, findings, and recommendations for future enhancements.
 
-Conclusion:
+## Conclusion:
 The foundation laid by the current project efforts provides a solid basis for further development and refinement. By addressing the outlined next steps, the project aims to achieve a sophisticated crash analysis module capable of effectively predicting and preventing vehicular accidents, contributing to safer roads and saving lives.
