@@ -67,7 +67,7 @@ def run():
     Main function to run the simulation, detect collisions, and log data for machine learning.
     """
     traci.start(["sumo-gui", "-c", "accident.sumocfg"])
-    while traci.simulation.getMinExpectedNumber() > 0:
+    while traci.simulation.getTime() <= 199.60:
         traci.simulationStep()
         vehicle_ids = traci.vehicle.getIDList()
         detect_collisions(vehicle_ids)
