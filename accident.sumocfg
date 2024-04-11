@@ -9,4 +9,8 @@
         <end value="200"/>
         <step-length value="0.4"/>
     </time>
+    <report>
+        <verbose value="true"/>
+        <no-step-log value="true"/> <!-- Optional: Reduces step logs to focus on collisions -->
+    </report>
 </configuration>
