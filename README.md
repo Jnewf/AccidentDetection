@@ -12,7 +12,7 @@ Crash Detection Logic: Preliminary crash detection logic has been integrated to 
 Simulation and Testing: The implemented models and crash detection logic have been tested in the simulation environment, providing initial insights into their performance and effectiveness.
 
 ## Files and Scripts:
-accident_detection_compare_tracking_methods.py: Main script for running the simulation and comparing tracking methods.
+accident_detection_compare_tracking_methods.py: Main script for running the simulation and comparing tracking methods. (note - not needed, can compare tracking methods using the logs from the following two scripts)
 
 accident_detection_kalman.py: Main script for running the simulation with Kalman filter as the chosen vehicle tracking method.
 
