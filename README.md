@@ -14,9 +14,9 @@ Simulation and Testing: The implemented models and crash detection logic have be
 ## Files and Scripts:
 accident_detection_compare_tracking_methods.py: Main script for running the simulation and comparing tracking methods. (note - not needed, can compare tracking methods using the logs from the following two scripts)
 
-accident_detection_kalman.py: Main script for running the simulation with Kalman filter as the chosen vehicle tracking method.
+accident_detection_kalman.py: Main script for running the simulation with Kalman filter as the chosen vehicle tracking method. Provides collision detections sumo gui and its complimentary collision_log.txt. Also provides simulation_data_kalman.log.
 
-accident_detection_constant.py: Main script for running the simulation with Kalman filter as the chosen vehicle tracking method.
+accident_detection_constant.py: Main script for running the simulation with Kalman filter as the chosen vehicle tracking method. Provides simulation_data_constant.log.
 
 constant_speed_model.py & kalman_filter.py: Implementation of the Constant Speed Model and the Kalman Filter, respectively.
 
