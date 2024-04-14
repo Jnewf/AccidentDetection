@@ -22,12 +22,34 @@ constant_speed_model.py & kalman_filter.py: Implementation of the Constant Speed
 
 accident.net.xml, accident.rou.xml, accident.settings.xml, accident.sumocfg: SUMO configuration files defining the network, vehicle routes, settings, and overall simulation setup.
 
-## Challenges Encountered:
-Model Differentiation: The predictions from the Constant Speed Model and the Kalman Filter have been found to be identical under the current simulation settings, indicating a need for further refinement to introduce more variability in traffic scenarios.
+## Next Steps for ML Implementation:
+* 		Feature Engineering:
+    * Extract features from both simulated (from simulation_data_constant.log and simulation_data_kalman.log) and real-world data that might influence crash probabilities. Potential features could include vehicle speed, acceleration (if available), time to collision, relative positioning, and traffic density.
+    * Consider creating features that capture interaction effects between vehicles, such as relative speeds and distances.
+* 		Data Preparation:
+    * Combine and label the data from logs with binary outcomes (1 for collision detected, 0 for no collision).
+    * Normalize or standardize the data if necessary to prepare it for ML modeling.
+* 		Model Selection:
+    * Choose a set of candidate models suitable for binary classification tasks. Could start with simpler models like logistic regression or decision trees and move to more complex models like random forests or gradient boosting machines if needed.
+    * Consider using neural networks if the feature interactions are complex and the simpler models underperform.
+* 		Training and Validation:
+    * Split data into training and validation sets. Use the training set to fit the models.
+    * Use cross-validation to evaluate model performance on unseen data. Focus on metrics like accuracy, precision, recall, and the ROC-AUC score.
+* 		Hyperparameter Tuning:
+    * Use grid search or random search to tune model parameters for optimal performance.
+    * Evaluate the impact of different hyperparameters on model performance, adjusting as necessary.
+* 		Integration and Real-Time Testing:
+    * Integrate the best-performing model into the simulation environment.
+    * Implement a mechanism in accident_detection_kalman.py and accident_detection_constant.py to use the ML model's predictions for real-time crash detection.
+* 		Evaluation and Iteration:
+    * Run simulations to test the effectiveness of the ML-enhanced crash detection system.
+    * Collect data on how the ML predictions compare to the base algorithms (Kalman and constant speed predictions).
+    * Adjust the system based on findings to improve accuracy and reduce false negatives.
+
 
 ## Next Steps:
 
-### Refine Tracking Models:
+### (Maybe, though not as imortant right now) Refine Tracking Models:
 
 Enhance the Kalman Filter to more effectively utilize acceleration data and process noise, ensuring it captures the dynamics of vehicle motion more accurately than the simpler Constant Speed Model.
 Review and adjust the Constant Speed Model to ensure it operates under its intended assumptions.
