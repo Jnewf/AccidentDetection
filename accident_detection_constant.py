@@ -31,29 +31,22 @@ def detect_collisions(vehicle_ids):
         try:
             pos = traci.vehicle.getPosition(veh_id)
             speed = traci.vehicle.getSpeed(veh_id)
-            heading = traci.vehicle.getAngle(veh_id)
-
-            # Predict future position using constant speed model
             predicted_pos = constant_speed_predict(veh_id, TIME_DELTA)
 
-            # Rear-end collision detection based on predicted positions
             leader_info = traci.vehicle.getLeader(veh_id, LEADER_DETECT_DIST)
             if leader_info:
                 leader_id, leader_gap = leader_info
                 leader_predicted_pos = constant_speed_predict(leader_id, TIME_DELTA)
 
-                # Check if the predicted gap is smaller than the warning threshold
-                predicted_gap = leader_predicted_pos - predicted_pos
-                if predicted_gap < COLLISION_WARN_GAP:
+                if leader_gap - leader_predicted_pos < COLLISION_WARN_GAP:
                     logging.warning(f"Rear-end collision warning: {leader_id} leading {veh_id}")
                     traci.vehicle.setColor(veh_id, (255, 0, 0, 255))  # Following vehicle in red
                     traci.vehicle.setColor(leader_id, (255, 255, 0, 255))  # Leading vehicle in yellow
 
-            # Side-swipe collision detection based on predicted lateral distances
             for other_id in vehicle_ids:
                 if other_id != veh_id:
                     other_predicted_pos = constant_speed_predict(other_id, TIME_DELTA)
-                    lateral_dist = np.abs(predicted_pos - other_predicted_pos)  # Assuming simple lateral distance calculation
+                    lateral_dist = np.abs(pos - other_predicted_pos)
 
                     if lateral_dist < SIDE_SWIPE_THRESHOLD:
                         logging.warning(f"Side-swipe collision warning: {veh_id} and {other_id}")
@@ -66,7 +59,14 @@ def run():
     """
     Main function to run the simulation, detect collisions, and log data for machine learning.
     """
-    traci.start(["sumo-gui", "-c", "accident.sumocfg"])
+    sumoCmd = [
+        "sumo-gui",  # or "sumo" for non-GUI mode
+        "-c", "accident.sumocfg",
+        "--collision.action", "warn",  # Action taken on collision
+        "--collision.mingap-factor", "2",  # Collision min gap factor
+        "--collision-output", "collision_log.txt"  # Collision log output file
+    ]
+    traci.start(sumoCmd)
     while traci.simulation.getTime() <= 199.60:
         traci.simulationStep()
         vehicle_ids = traci.vehicle.getIDList()
