@@ -1,0 +1,53 @@
+# Crash Detection System - Scenario 2
+This README provides an overview of the work done in Scenario 2 of our Crash Detection System project. In this scenario, we focused on further testing and validation of our algorithms using complex traffic scenarios and refined our approach based on the insights gained.
+
+## Scenario Description
+Scenario 2 represents a complex traffic environment with multiple vehicles, intersections, and varying road conditions. The goal is to assess the performance and robustness of our crash detection algorithms in a more challenging setting.
+
+## Further Testing and Validation
+We conducted extensive testing of our Kalman filter and constant speed model algorithms in Scenario 2. The testing involved running simulations using the SUMO traffic simulator and analyzing the results. Here are the key steps we followed:
+
+Prepared the simulation environment:
+Designed a complex traffic scenario with multiple vehicles, intersections, and varying road conditions.
+Set up the SUMO configuration files (cross.sumocfg) to define the simulation parameters.
+
+Ran simulations:
+Executed the accident_detection_constant__scenario2.py script to test the constant speed model algorithm.
+Executed the accident_detection_kalman_scenario2.py script to test the Kalman filter algorithm.
+Executed the accident_detection_compare_tracking_methods_1_scenario2.py script to compare the performance of both algorithms.
+
+Collected and analyzed results:
+Parsed the simulation output files (collision_log_scenario2.txt, simulation_data_constant_scenario2.log, simulation_data_kalman_scenario2.log, simulation_data_tracking_methods_scenario2.log) using the parse_and_analyze_2__scenario2.py script.
+Evaluated the precision scores of the Kalman filter and constant speed model algorithms in detecting collisions.
+Investigated false positives and false negatives to identify areas for improvement.
+
+## Algorithm Refinement
+Based on the insights gained from the testing and validation phase, we refined our crash detection algorithms to enhance their performance and accuracy. The refinements included:
+
+Tuning algorithm parameters:
+Adjusted the collision warning gap (COLLISION_WARN_GAP) and side-swipe threshold (SIDE_SWIPE_THRESHOLD) to optimize collision detection.
+Experimented with different time delta values (TIME_DELTA) to find the optimal balance between prediction accuracy and computational efficiency.
+
+Improving collision detection logic:
+Enhanced the rear-end collision detection by considering the predicted gap between vehicles based on their predicted positions.
+Refined the side-swipe collision detection by incorporating the predicted lateral distance between vehicles.
+
+Integrating machine learning techniques:
+Trained a logistic regression model (collisions_ML_model()) to predict collision types based on features such as time, position, and vehicle speeds.
+Evaluated the model's performance using accuracy metrics and cross-validation techniques.
+
+## Results and Analysis
+The testing and refinement efforts in Scenario 2 yielded the following results:
+
+The Kalman filter algorithm achieved a precision of 0.53, successfully detecting 134 out of 255 total collisions.
+The constant speed model algorithm achieved a precision of 0.52, successfully detecting 133 out of 255 total collisions.
+The logistic regression model trained on the collision data achieved an accuracy of 1.0, indicating its ability to accurately predict collision types.
+
+These results demonstrate the effectiveness of our refined crash detection algorithms in a complex traffic scenario. The Kalman filter algorithm slightly outperformed the constant speed model, showcasing its robustness in handling uncertainties and noisy data.
+
+## Next Steps
+With the completion of the further testing, validation, and algorithm refinement phases, we are now ready to proceed with the next steps of the project:
+
+Prepare a demonstration of the crash detection system.
+Conduct a comprehensive analysis of the results.
+Prepare a presentation to showcase our findings and the potential impact of our system.
