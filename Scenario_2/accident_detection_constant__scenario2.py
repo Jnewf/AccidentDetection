@@ -70,7 +70,7 @@ def run():
         "-c", "cross.sumocfg",
         "--collision.action", "warn",  # Action taken on collision
         "--collision.mingap-factor", "2",  # Collision min gap factor
-        "--collision-output", "collision_log_scenario2.txt"  # Collision log output file
+        # "--collision-output", "collision_log_scenario2.txt"  # Collision log output file
     ]
 
     traci.start(sumoCmd)
