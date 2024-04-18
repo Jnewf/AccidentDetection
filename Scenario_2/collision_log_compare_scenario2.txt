@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-04-18 12:46:45 by Eclipse SUMO GUI Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="cross.net.xml"/>
+        <route-files value="cross.rou.xml"/>
+        <additional-files value="cross.det.xml"/>
+    </input>
+
+    <output>
+        <collision-output value="collision_log_compare_scenario2.txt"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+    </time>
+
+    <processing>
+        <collision.action value="warn"/>
+        <collision.mingap-factor value="2"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="57257"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<collisions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/collision_file.xsd">
+    <collision time="80.00" type="collision" lane="2i_0" pos="484.27" collider="left_8" victim="left_7" colliderType="typeWE" victimType="typeWE" colliderSpeed="6.33" victimSpeed="0.01"/>
+    <collision time="81.00" type="collision" lane="2i_0" pos="486.35" collider="left_8" victim="left_7" colliderType="typeWE" victimType="typeWE" colliderSpeed="2.08" victimSpeed="0.00"/>
+    <collision time="82.00" type="collision" lane="2i_0" pos="486.74" collider="left_8" victim="left_7" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.39" victimSpeed="0.00"/>
+    <collision time="83.00" type="collision" lane="2i_0" pos="486.74" collider="left_8" victim="left_7" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.01" victimSpeed="0.00"/>
+    <collision time="84.00" type="collision" lane="2i_0" pos="486.75" collider="left_8" victim="left_7" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="85.00" type="collision" lane="2i_0" pos="486.75" collider="left_8" victim="left_7" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="85.00" type="collision" lane="2i_0" pos="477.45" collider="left_9" victim="left_8" colliderType="typeWE" victimType="typeWE" colliderSpeed="5.92" victimSpeed="0.00"/>
+    <collision time="86.00" type="collision" lane="2i_0" pos="486.75" collider="left_8" victim="left_7" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="86.00" type="collision" lane="2i_0" pos="479.00" collider="left_9" victim="left_8" colliderType="typeWE" victimType="typeWE" colliderSpeed="1.56" victimSpeed="0.00"/>
+    <collision time="87.00" type="collision" lane="2i_0" pos="486.75" collider="left_8" victim="left_7" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="87.00" type="collision" lane="2i_0" pos="479.17" collider="left_9" victim="left_8" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.17" victimSpeed="0.00"/>
+    <collision time="88.00" type="collision" lane="2i_0" pos="486.75" collider="left_8" victim="left_7" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="88.00" type="collision" lane="2i_0" pos="479.23" collider="left_9" victim="left_8" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.06" victimSpeed="0.00"/>
+    <collision time="89.00" type="collision" lane="2i_0" pos="486.75" collider="left_8" victim="left_7" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="89.00" type="collision" lane="2i_0" pos="479.24" collider="left_9" victim="left_8" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.01" victimSpeed="0.00"/>
+    <collision time="90.00" type="collision" lane="2i_0" pos="471.66" collider="left_11" victim="left_9" colliderType="typeWE" victimType="typeWE" colliderSpeed="3.19" victimSpeed="0.01"/>
+    <collision time="90.00" type="collision" lane="2i_0" pos="486.75" collider="left_8" victim="left_7" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="90.00" type="collision" lane="2i_0" pos="479.25" collider="left_9" victim="left_8" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.01" victimSpeed="0.00"/>
+    <collision time="91.00" type="collision" lane="2i_0" pos="471.73" collider="left_11" victim="left_9" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.06" victimSpeed="0.00"/>
+    <collision time="91.00" type="collision" lane="2i_0" pos="486.75" collider="left_8" victim="left_7" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="91.00" type="collision" lane="2i_0" pos="479.25" collider="left_9" victim="left_8" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="92.00" type="collision" lane="2i_0" pos="471.74" collider="left_11" victim="left_9" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.01" victimSpeed="0.00"/>
+    <collision time="92.00" type="collision" lane="2i_0" pos="486.75" collider="left_8" victim="left_7" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="92.00" type="collision" lane="2i_0" pos="479.25" collider="left_9" victim="left_8" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="93.00" type="collision" lane="2i_0" pos="471.74" collider="left_11" victim="left_9" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="93.00" type="collision" lane="2i_0" pos="486.75" collider="left_8" victim="left_7" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="93.00" type="collision" lane="2i_0" pos="479.25" collider="left_9" victim="left_8" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="94.00" type="collision" lane="2i_0" pos="471.75" collider="left_11" victim="left_9" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="94.00" type="collision" lane="2i_0" pos="486.75" collider="left_8" victim="left_7" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="94.00" type="collision" lane="2i_0" pos="479.25" collider="left_9" victim="left_8" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="95.00" type="collision" lane="2i_0" pos="471.75" collider="left_11" victim="left_9" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="95.00" type="collision" lane="2i_0" pos="462.77" collider="left_12" victim="left_11" colliderType="typeWE" victimType="typeWE" colliderSpeed="5.68" victimSpeed="0.00"/>
+    <collision time="95.00" type="collision" lane="2i_0" pos="486.75" collider="left_8" victim="left_7" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="95.00" type="collision" lane="2i_0" pos="479.25" collider="left_9" victim="left_8" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="96.00" type="collision" lane="2i_0" pos="471.75" collider="left_11" victim="left_9" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="96.00" type="collision" lane="2i_0" pos="463.95" collider="left_12" victim="left_11" colliderType="typeWE" victimType="typeWE" colliderSpeed="1.18" victimSpeed="0.00"/>
+    <collision time="96.00" type="collision" lane="2i_0" pos="486.75" collider="left_8" victim="left_7" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="96.00" type="collision" lane="2i_0" pos="479.25" collider="left_9" victim="left_8" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="97.00" type="collision" lane="2i_0" pos="471.75" collider="left_11" victim="left_9" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="97.00" type="collision" lane="2i_0" pos="464.23" collider="left_12" victim="left_11" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.28" victimSpeed="0.00"/>
+    <collision time="97.00" type="collision" lane="2i_0" pos="486.75" collider="left_8" victim="left_7" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="97.00" type="collision" lane="2i_0" pos="479.25" collider="left_9" victim="left_8" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="98.00" type="collision" lane="2i_0" pos="471.75" collider="left_11" victim="left_9" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="98.00" type="collision" lane="2i_0" pos="464.24" collider="left_12" victim="left_11" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.01" victimSpeed="0.00"/>
+    <collision time="98.00" type="collision" lane="2i_0" pos="486.75" collider="left_8" victim="left_7" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="98.00" type="collision" lane="2i_0" pos="479.25" collider="left_9" victim="left_8" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="99.00" type="collision" lane="2i_0" pos="471.75" collider="left_11" victim="left_9" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="99.00" type="collision" lane="2i_0" pos="464.24" collider="left_12" victim="left_11" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="99.00" type="collision" lane="2i_0" pos="486.75" collider="left_8" victim="left_7" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="99.00" type="collision" lane="2i_0" pos="479.25" collider="left_9" victim="left_8" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="99.00" type="collision" lane="1i_0" pos="486.67" collider="right_13" victim="right_10" colliderType="typeWE" victimType="typeWE" colliderSpeed="2.73" victimSpeed="0.00"/>
+    <collision time="100.00" type="collision" lane="2i_0" pos="471.75" collider="left_11" victim="left_9" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="100.00" type="collision" lane="2i_0" pos="464.24" collider="left_12" victim="left_11" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="100.00" type="collision" lane="2i_0" pos="486.75" collider="left_8" victim="left_7" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="100.00" type="collision" lane="2i_0" pos="479.25" collider="left_9" victim="left_8" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="100.00" type="collision" lane="1i_0" pos="486.74" collider="right_13" victim="right_10" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.07" victimSpeed="0.00"/>
+    <collision time="101.00" type="collision" lane="2i_0" pos="471.75" collider="left_11" victim="left_9" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="101.00" type="collision" lane="2i_0" pos="464.24" collider="left_12" victim="left_11" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="101.00" type="collision" lane="2i_0" pos="486.75" collider="left_8" victim="left_7" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="101.00" type="collision" lane="2i_0" pos="479.25" collider="left_9" victim="left_8" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="101.00" type="collision" lane="1i_0" pos="486.75" collider="right_13" victim="right_10" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.01" victimSpeed="0.00"/>
+    <collision time="102.00" type="collision" lane="2i_0" pos="471.75" collider="left_11" victim="left_9" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="102.00" type="collision" lane="2i_0" pos="464.24" collider="left_12" victim="left_11" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="102.00" type="collision" lane="2i_0" pos="486.75" collider="left_8" victim="left_7" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="102.00" type="collision" lane="2i_0" pos="479.25" collider="left_9" victim="left_8" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="102.00" type="collision" lane="1i_0" pos="486.75" collider="right_13" victim="right_10" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="103.00" type="collision" lane="2i_0" pos="471.75" collider="left_11" victim="left_9" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="103.00" type="collision" lane="2i_0" pos="464.24" collider="left_12" victim="left_11" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="103.00" type="collision" lane="2i_0" pos="486.75" collider="left_8" victim="left_7" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="103.00" type="collision" lane="2i_0" pos="479.25" collider="left_9" victim="left_8" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="103.00" type="collision" lane="1i_0" pos="486.75" collider="right_13" victim="right_10" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="104.00" type="collision" lane="2i_0" pos="471.75" collider="left_11" victim="left_9" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="104.00" type="collision" lane="2i_0" pos="464.24" collider="left_12" victim="left_11" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="104.00" type="collision" lane="2i_0" pos="486.75" collider="left_8" victim="left_7" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="104.00" type="collision" lane="2i_0" pos="479.25" collider="left_9" victim="left_8" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="104.00" type="collision" lane="1i_0" pos="486.75" collider="right_13" victim="right_10" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="105.00" type="collision" lane="2i_0" pos="471.75" collider="left_11" victim="left_9" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="105.00" type="collision" lane="2i_0" pos="464.24" collider="left_12" victim="left_11" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="105.00" type="collision" lane="2i_0" pos="486.75" collider="left_8" victim="left_7" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="105.00" type="collision" lane="2i_0" pos="479.25" collider="left_9" victim="left_8" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="105.00" type="collision" lane="1i_0" pos="486.75" collider="right_13" victim="right_10" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="106.00" type="collision" lane="2i_0" pos="471.75" collider="left_11" victim="left_9" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="106.00" type="collision" lane="2i_0" pos="464.24" collider="left_12" victim="left_11" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="106.00" type="collision" lane="2i_0" pos="486.75" collider="left_8" victim="left_7" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="106.00" type="collision" lane="2i_0" pos="479.25" collider="left_9" victim="left_8" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="106.00" type="collision" lane="1i_0" pos="486.75" collider="right_13" victim="right_10" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="106.00" type="collision" lane="1i_0" pos="478.42" collider="right_14" victim="right_13" colliderType="typeWE" victimType="typeWE" colliderSpeed="4.92" victimSpeed="0.00"/>
+    <collision time="107.00" type="collision" lane="2i_0" pos="471.75" collider="left_11" victim="left_9" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="107.00" type="collision" lane="2i_0" pos="464.24" collider="left_12" victim="left_11" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="107.00" type="collision" lane="2i_0" pos="486.75" collider="left_8" victim="left_7" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="107.00" type="collision" lane="2i_0" pos="479.25" collider="left_9" victim="left_8" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="107.00" type="collision" lane="1i_0" pos="486.75" collider="right_13" victim="right_10" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="107.00" type="collision" lane="1i_0" pos="478.87" collider="right_14" victim="right_13" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.45" victimSpeed="0.00"/>
+    <collision time="108.00" type="collision" lane="2i_0" pos="471.75" collider="left_11" victim="left_9" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="108.00" type="collision" lane="2i_0" pos="464.24" collider="left_12" victim="left_11" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="108.00" type="collision" lane="2i_0" pos="486.75" collider="left_8" victim="left_7" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="108.00" type="collision" lane="2i_0" pos="479.25" collider="left_9" victim="left_8" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="108.00" type="collision" lane="1i_0" pos="486.75" collider="right_13" victim="right_10" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="108.00" type="collision" lane="1i_0" pos="479.11" collider="right_14" victim="right_13" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.24" victimSpeed="0.00"/>
+    <collision time="109.00" type="collision" lane="2i_0" pos="471.75" collider="left_11" victim="left_9" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="109.00" type="collision" lane="2i_0" pos="464.24" collider="left_12" victim="left_11" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="109.00" type="collision" lane="2i_0" pos="486.75" collider="left_8" victim="left_7" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="109.00" type="collision" lane="2i_0" pos="479.25" collider="left_9" victim="left_8" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="109.00" type="collision" lane="1i_0" pos="486.75" collider="right_13" victim="right_10" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="109.00" type="collision" lane="1i_0" pos="479.24" collider="right_14" victim="right_13" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.13" victimSpeed="0.00"/>
+    <collision time="110.00" type="collision" lane="2i_0" pos="471.75" collider="left_11" victim="left_9" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="110.00" type="collision" lane="2i_0" pos="464.24" collider="left_12" victim="left_11" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="110.00" type="collision" lane="2i_0" pos="486.75" collider="left_8" victim="left_7" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="110.00" type="collision" lane="2i_0" pos="479.25" collider="left_9" victim="left_8" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="110.00" type="collision" lane="1i_0" pos="486.75" collider="right_13" victim="right_10" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="110.00" type="collision" lane="1i_0" pos="479.24" collider="right_14" victim="right_13" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="111.00" type="collision" lane="2i_0" pos="471.75" collider="left_11" victim="left_9" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="111.00" type="collision" lane="2i_0" pos="464.24" collider="left_12" victim="left_11" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="111.00" type="collision" lane="2i_0" pos="486.75" collider="left_8" victim="left_7" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.52"/>
+    <collision time="111.00" type="collision" lane="2i_0" pos="479.25" collider="left_9" victim="left_8" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="111.00" type="collision" lane="1i_0" pos="486.75" collider="right_13" victim="right_10" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.50"/>
+    <collision time="111.00" type="collision" lane="1i_0" pos="479.25" collider="right_14" victim="right_13" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="112.00" type="collision" lane="2i_0" pos="471.75" collider="left_11" victim="left_9" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="112.00" type="collision" lane="2i_0" pos="464.24" collider="left_12" victim="left_11" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="112.00" type="collision" lane="2i_0" pos="479.25" collider="left_9" victim="left_8" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.34"/>
+    <collision time="112.00" type="collision" lane="1i_0" pos="479.25" collider="right_14" victim="right_13" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.25"/>
+    <collision time="112.00" type="collision" lane="1i_0" pos="471.62" collider="right_15" victim="right_14" colliderType="typeWE" victimType="typeWE" colliderSpeed="4.46" victimSpeed="0.00"/>
+    <collision time="113.00" type="collision" lane="2i_0" pos="471.75" collider="left_11" victim="left_9" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.23"/>
+    <collision time="113.00" type="collision" lane="2i_0" pos="464.24" collider="left_12" victim="left_11" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="113.00" type="collision" lane="2i_0" pos="479.47" collider="left_9" victim="left_8" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.23" victimSpeed="0.96"/>
+    <collision time="113.00" type="collision" lane="1i_0" pos="479.47" collider="right_14" victim="right_13" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.23" victimSpeed="0.81"/>
+    <collision time="113.00" type="collision" lane="1i_0" pos="471.69" collider="right_15" victim="right_14" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.07" victimSpeed="0.23"/>
+    <collision time="114.00" type="collision" lane="2i_0" pos="471.94" collider="left_11" victim="left_9" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.20" victimSpeed="0.92"/>
+    <collision time="114.00" type="collision" lane="2i_0" pos="464.24" collider="left_12" victim="left_11" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.20"/>
+    <collision time="114.00" type="collision" lane="2i_0" pos="480.39" collider="left_9" victim="left_8" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.92" victimSpeed="1.51"/>
+    <collision time="114.00" type="collision" lane="1i_0" pos="480.03" collider="right_14" victim="right_13" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.55" victimSpeed="1.23"/>
+    <collision time="114.00" type="collision" lane="1i_0" pos="471.97" collider="right_15" victim="right_14" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.28" victimSpeed="0.55"/>
+    <collision time="115.00" type="collision" lane="2i_0" pos="472.64" collider="left_11" victim="left_9" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.70" victimSpeed="1.49"/>
+    <collision time="115.00" type="collision" lane="2i_0" pos="464.37" collider="left_12" victim="left_11" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.13" victimSpeed="0.70"/>
+    <collision time="115.00" type="collision" lane="2i_0" pos="481.88" collider="left_9" victim="left_8" colliderType="typeWE" victimType="typeWE" colliderSpeed="1.49" victimSpeed="1.99"/>
+    <collision time="115.00" type="collision" lane="1i_0" pos="481.04" collider="right_14" victim="right_13" colliderType="typeWE" victimType="typeWE" colliderSpeed="1.02" victimSpeed="1.93"/>
+    <collision time="115.00" type="collision" lane="1i_0" pos="472.44" collider="right_15" victim="right_14" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.47" victimSpeed="1.02"/>
+    <collision time="116.00" type="collision" lane="2i_0" pos="474.08" collider="left_11" victim="left_9" colliderType="typeWE" victimType="typeWE" colliderSpeed="1.44" victimSpeed="1.97"/>
+    <collision time="116.00" type="collision" lane="2i_0" pos="465.00" collider="left_12" victim="left_11" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.63" victimSpeed="1.44"/>
+    <collision time="116.00" type="collision" lane="1i_0" pos="473.22" collider="right_15" victim="right_14" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.78" victimSpeed="1.51"/>
+    <collision time="117.00" type="collision" lane="2i_0" pos="466.42" collider="left_12" victim="left_11" colliderType="typeWE" victimType="typeWE" colliderSpeed="1.42" victimSpeed="1.89"/>
+    <collision time="137.00" type="collision" lane="4i_0" pos="482.39" collider="down_19" victim="down_18" colliderType="typeNS" victimType="typeNS" colliderSpeed="6.18" victimSpeed="0.00"/>
+    <collision time="138.00" type="collision" lane="4i_0" pos="484.08" collider="down_19" victim="down_18" colliderType="typeNS" victimType="typeNS" colliderSpeed="1.68" victimSpeed="0.00"/>
+    <collision time="139.00" type="collision" lane="4i_0" pos="484.24" collider="down_19" victim="down_18" colliderType="typeNS" victimType="typeNS" colliderSpeed="0.16" victimSpeed="0.00"/>
+    <collision time="140.00" type="collision" lane="4i_0" pos="484.25" collider="down_19" victim="down_18" colliderType="typeNS" victimType="typeNS" colliderSpeed="0.01" victimSpeed="0.00"/>
+    <collision time="141.00" type="collision" lane="4i_0" pos="484.25" collider="down_19" victim="down_18" colliderType="typeNS" victimType="typeNS" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="142.00" type="collision" lane="4i_0" pos="484.25" collider="down_19" victim="down_18" colliderType="typeNS" victimType="typeNS" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="143.00" type="collision" lane="4i_0" pos="484.25" collider="down_19" victim="down_18" colliderType="typeNS" victimType="typeNS" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="144.00" type="collision" lane="4i_0" pos="484.25" collider="down_19" victim="down_18" colliderType="typeNS" victimType="typeNS" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="145.00" type="collision" lane="4i_0" pos="484.25" collider="down_19" victim="down_18" colliderType="typeNS" victimType="typeNS" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="146.00" type="collision" lane="4i_0" pos="484.25" collider="down_19" victim="down_18" colliderType="typeNS" victimType="typeNS" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="147.00" type="collision" lane="4i_0" pos="484.25" collider="down_19" victim="down_18" colliderType="typeNS" victimType="typeNS" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="148.00" type="collision" lane="4i_0" pos="484.25" collider="down_19" victim="down_18" colliderType="typeNS" victimType="typeNS" colliderSpeed="0.00" victimSpeed="0.50"/>
+    <collision time="153.00" type="collision" lane="1i_0" pos="486.13" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="5.09" victimSpeed="0.00"/>
+    <collision time="154.00" type="collision" lane="1i_0" pos="486.72" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.59" victimSpeed="0.00"/>
+    <collision time="155.00" type="collision" lane="1i_0" pos="486.74" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.02" victimSpeed="0.00"/>
+    <collision time="156.00" type="collision" lane="1i_0" pos="486.74" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="157.00" type="collision" lane="1i_0" pos="486.75" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="158.00" type="collision" lane="1i_0" pos="486.75" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="158.00" type="collision" lane="1i_0" pos="479.14" collider="right_23" victim="right_22" colliderType="typeWE" victimType="typeWE" colliderSpeed="2.85" victimSpeed="0.00"/>
+    <collision time="159.00" type="collision" lane="1i_0" pos="486.75" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="159.00" type="collision" lane="1i_0" pos="479.22" collider="right_23" victim="right_22" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.08" victimSpeed="0.00"/>
+    <collision time="160.00" type="collision" lane="1i_0" pos="486.75" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="160.00" type="collision" lane="1i_0" pos="479.24" collider="right_23" victim="right_22" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.02" victimSpeed="0.00"/>
+    <collision time="161.00" type="collision" lane="1i_0" pos="486.75" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="161.00" type="collision" lane="1i_0" pos="479.25" collider="right_23" victim="right_22" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="162.00" type="collision" lane="1i_0" pos="486.75" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="162.00" type="collision" lane="1i_0" pos="479.25" collider="right_23" victim="right_22" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="163.00" type="collision" lane="1i_0" pos="486.75" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="163.00" type="collision" lane="1i_0" pos="479.25" collider="right_23" victim="right_22" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="164.00" type="collision" lane="1i_0" pos="486.75" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="164.00" type="collision" lane="1i_0" pos="479.25" collider="right_23" victim="right_22" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="165.00" type="collision" lane="1i_0" pos="486.75" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="165.00" type="collision" lane="1i_0" pos="479.25" collider="right_23" victim="right_22" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="166.00" type="collision" lane="1i_0" pos="486.75" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="166.00" type="collision" lane="1i_0" pos="479.25" collider="right_23" victim="right_22" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="167.00" type="collision" lane="1i_0" pos="486.75" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="167.00" type="collision" lane="1i_0" pos="479.25" collider="right_23" victim="right_22" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="168.00" type="collision" lane="1i_0" pos="486.75" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="168.00" type="collision" lane="1i_0" pos="479.25" collider="right_23" victim="right_22" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="168.00" type="collision" lane="1i_0" pos="471.66" collider="right_25" victim="right_23" colliderType="typeWE" victimType="typeWE" colliderSpeed="4.05" victimSpeed="0.00"/>
+    <collision time="169.00" type="collision" lane="1i_0" pos="486.75" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="169.00" type="collision" lane="1i_0" pos="479.25" collider="right_23" victim="right_22" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="169.00" type="collision" lane="1i_0" pos="471.74" collider="right_25" victim="right_23" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.08" victimSpeed="0.00"/>
+    <collision time="170.00" type="collision" lane="1i_0" pos="486.75" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="170.00" type="collision" lane="1i_0" pos="479.25" collider="right_23" victim="right_22" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="170.00" type="collision" lane="1i_0" pos="471.74" collider="right_25" victim="right_23" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.01" victimSpeed="0.00"/>
+    <collision time="171.00" type="collision" lane="1i_0" pos="486.75" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="171.00" type="collision" lane="1i_0" pos="479.25" collider="right_23" victim="right_22" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="171.00" type="collision" lane="1i_0" pos="471.75" collider="right_25" victim="right_23" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="172.00" type="collision" lane="1i_0" pos="486.75" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="172.00" type="collision" lane="1i_0" pos="479.25" collider="right_23" victim="right_22" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="172.00" type="collision" lane="1i_0" pos="471.75" collider="right_25" victim="right_23" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="173.00" type="collision" lane="1i_0" pos="486.75" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="173.00" type="collision" lane="1i_0" pos="479.25" collider="right_23" victim="right_22" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="173.00" type="collision" lane="1i_0" pos="471.75" collider="right_25" victim="right_23" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="174.00" type="collision" lane="1i_0" pos="486.75" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="174.00" type="collision" lane="1i_0" pos="479.25" collider="right_23" victim="right_22" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="174.00" type="collision" lane="1i_0" pos="471.75" collider="right_25" victim="right_23" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="175.00" type="collision" lane="1i_0" pos="486.75" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="175.00" type="collision" lane="1i_0" pos="479.25" collider="right_23" victim="right_22" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="175.00" type="collision" lane="1i_0" pos="471.75" collider="right_25" victim="right_23" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="176.00" type="collision" lane="1i_0" pos="486.75" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="176.00" type="collision" lane="1i_0" pos="479.25" collider="right_23" victim="right_22" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="176.00" type="collision" lane="1i_0" pos="471.75" collider="right_25" victim="right_23" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="177.00" type="collision" lane="1i_0" pos="486.75" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="177.00" type="collision" lane="1i_0" pos="479.25" collider="right_23" victim="right_22" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="177.00" type="collision" lane="1i_0" pos="471.75" collider="right_25" victim="right_23" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="178.00" type="collision" lane="1i_0" pos="486.75" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="178.00" type="collision" lane="1i_0" pos="479.25" collider="right_23" victim="right_22" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="178.00" type="collision" lane="1i_0" pos="471.75" collider="right_25" victim="right_23" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="179.00" type="collision" lane="1i_0" pos="486.75" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="179.00" type="collision" lane="1i_0" pos="479.25" collider="right_23" victim="right_22" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="179.00" type="collision" lane="1i_0" pos="471.75" collider="right_25" victim="right_23" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="180.00" type="collision" lane="1i_0" pos="486.75" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="180.00" type="collision" lane="1i_0" pos="479.25" collider="right_23" victim="right_22" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="180.00" type="collision" lane="1i_0" pos="471.75" collider="right_25" victim="right_23" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="181.00" type="collision" lane="2i_0" pos="486.44" collider="left_27" victim="left_26" colliderType="typeWE" victimType="typeWE" colliderSpeed="2.79" victimSpeed="0.00"/>
+    <collision time="181.00" type="collision" lane="1i_0" pos="486.75" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="181.00" type="collision" lane="1i_0" pos="479.25" collider="right_23" victim="right_22" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="181.00" type="collision" lane="1i_0" pos="471.75" collider="right_25" victim="right_23" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="182.00" type="collision" lane="2i_0" pos="486.61" collider="left_27" victim="left_26" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.18" victimSpeed="0.00"/>
+    <collision time="182.00" type="collision" lane="1i_0" pos="486.75" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="182.00" type="collision" lane="1i_0" pos="479.25" collider="right_23" victim="right_22" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="182.00" type="collision" lane="1i_0" pos="471.75" collider="right_25" victim="right_23" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="183.00" type="collision" lane="2i_0" pos="486.74" collider="left_27" victim="left_26" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.13" victimSpeed="0.00"/>
+    <collision time="183.00" type="collision" lane="1i_0" pos="486.75" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="183.00" type="collision" lane="1i_0" pos="479.25" collider="right_23" victim="right_22" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="183.00" type="collision" lane="1i_0" pos="471.75" collider="right_25" victim="right_23" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="184.00" type="collision" lane="2i_0" pos="486.75" collider="left_27" victim="left_26" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="184.00" type="collision" lane="1i_0" pos="486.75" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="184.00" type="collision" lane="1i_0" pos="479.25" collider="right_23" victim="right_22" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="184.00" type="collision" lane="1i_0" pos="471.75" collider="right_25" victim="right_23" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="185.00" type="collision" lane="2i_0" pos="486.75" collider="left_27" victim="left_26" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.41"/>
+    <collision time="185.00" type="collision" lane="2i_0" pos="478.68" collider="left_28" victim="left_27" colliderType="typeWE" victimType="typeWE" colliderSpeed="4.80" victimSpeed="0.00"/>
+    <collision time="185.00" type="collision" lane="1i_0" pos="486.75" collider="right_22" victim="right_20" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.43"/>
+    <collision time="185.00" type="collision" lane="1i_0" pos="479.25" collider="right_23" victim="right_22" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="185.00" type="collision" lane="1i_0" pos="471.75" collider="right_25" victim="right_23" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="186.00" type="collision" lane="2i_0" pos="479.21" collider="left_28" victim="left_27" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.53" victimSpeed="0.21"/>
+    <collision time="186.00" type="collision" lane="1i_0" pos="479.25" collider="right_23" victim="right_22" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.35"/>
+    <collision time="186.00" type="collision" lane="1i_0" pos="471.75" collider="right_25" victim="right_23" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="187.00" type="collision" lane="2i_0" pos="479.44" collider="left_28" victim="left_27" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.23" victimSpeed="0.93"/>
+    <collision time="187.00" type="collision" lane="1i_0" pos="479.51" collider="right_23" victim="right_22" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.26" victimSpeed="0.93"/>
+    <collision time="187.00" type="collision" lane="1i_0" pos="471.75" collider="right_25" victim="right_23" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.00" victimSpeed="0.26"/>
+    <collision time="188.00" type="collision" lane="2i_0" pos="480.01" collider="left_28" victim="left_27" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.57" victimSpeed="1.36"/>
+    <collision time="188.00" type="collision" lane="1i_0" pos="480.43" collider="right_23" victim="right_22" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.93" victimSpeed="1.51"/>
+    <collision time="188.00" type="collision" lane="1i_0" pos="471.95" collider="right_25" victim="right_23" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.21" victimSpeed="0.93"/>
+    <collision time="188.00" type="collision" lane="1i_0" pos="463.40" collider="right_30" victim="right_25" colliderType="typeWE" victimType="typeWE" colliderSpeed="5.17" victimSpeed="0.21"/>
+    <collision time="189.00" type="collision" lane="1i_0" pos="481.78" collider="right_23" victim="right_22" colliderType="typeWE" victimType="typeWE" colliderSpeed="1.35" victimSpeed="2.12"/>
+    <collision time="189.00" type="collision" lane="1i_0" pos="472.91" collider="right_25" victim="right_23" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.96" victimSpeed="1.35"/>
+    <collision time="189.00" type="collision" lane="1i_0" pos="464.32" collider="right_30" victim="right_25" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.91" victimSpeed="0.96"/>
+    <collision time="190.00" type="collision" lane="1i_0" pos="473.93" collider="right_25" victim="right_23" colliderType="typeWE" victimType="typeWE" colliderSpeed="1.02" victimSpeed="1.84"/>
+    <collision time="190.00" type="collision" lane="1i_0" pos="465.09" collider="right_30" victim="right_25" colliderType="typeWE" victimType="typeWE" colliderSpeed="0.78" victimSpeed="1.02"/>
+    <collision time="191.00" type="collision" lane="1i_0" pos="466.24" collider="right_30" victim="right_25" colliderType="typeWE" victimType="typeWE" colliderSpeed="1.14" victimSpeed="1.78"/>
+    <collision time="192.00" type="collision" lane="1i_0" pos="468.05" collider="right_30" victim="right_25" colliderType="typeWE" victimType="typeWE" colliderSpeed="1.82" victimSpeed="2.28"/>
+</collisions>
